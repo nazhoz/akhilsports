@@ -1,0 +1,175 @@
+
+.totaldiv{
+    background-color: rgb(252, 252, 252);
+}    
+.cup{
+    outline: none;
+}    
+
+
+.navbar{
+    width: 100%;
+    height: 80px;
+}
+.navbar-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.navbar-nav1{
+   display: flex;
+   justify-content: space-evenly;
+   width: 35%;
+   
+   
+}
+.container-fluid{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgba(255,0,0,1));
+}
+#navbartext{
+    color: aliceblue;
+}
+.hdtext{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.argentina{
+    /* background-color: yellow; */
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Football{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+.Football1{
+    /* background-color: violet; */
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+.Live{
+    /* background-color: yellowgreen; */
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+   
+   
+}
+.live1{
+    /* background-color: violet; */
+    width: 90%;
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction:column;
+}
+.mancherster:hover{
+transform: scale(1.08);
+box-shadow: 0 0  10px gray;
+transition-duration: .5s;
+    
+}
+.imgandtext{
+    display: flex;
+    justify-content: space-around; 
+    /* background-color: yellow; */
+}
+.subimgandtext{
+ 
+    display: flex;
+    justify-content: space-around;
+    /* background-color: aqua; */
+    width: 50%;
+}
+.Now{
+    width: 150px;
+    height: 30px;
+    border-radius: 8px;
+    font-size: 1rem;
+    border: 1px solid gray;
+    background-color: rgb(141, 19, 3);
+    color: aliceblue;
+    font-weight: 800;
+
+}
+.Now:hover{
+   background-color: aliceblue;
+   color: rgb(141, 19, 3);
+}
+.mancherster{
+    border-radius: 10px;
+}
+.footer{
+    width: 100%;
+    height: 400px;
+background-image: linear-gradient(red, rgba(97, 1, 1, 0.979));
+
+}
+.footer1{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.subfooter{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.mainhead{
+    font-weight:800;
+}
+.data{
+    font-size: 13px;
+}
+.footer2{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+}
+
+.footer3{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: white;
+   
+}
+.mail{
+    color: white;
+}
+.logoimg:hover{
+    transform: scale(1.08);
+transition-duration: .5s;
+
+}
+.wings:hover{
+    transform: scale(1.08);
+transition-duration: .5s;
+
+}
+
+

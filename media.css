@@ -1,0 +1,43 @@
+@media(max-width:500px){
+
+    .imgandtext{
+        display: flex;
+        flex-direction: column;
+    }
+    .subimgandtext{
+        width: 375px;
+    }
+   
+   
+    .argentina{
+        height: 200px;
+    }
+    .cup{
+        height: 170px;
+        border-radius: 15px;
+    }
+    .footer{
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .subfooter{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .data{
+        font-size: 10px;
+    }
+    .mainhead{
+        font-size: 13px;
+
+    }
+}
